@@ -7,7 +7,8 @@ declare module "react-native-map-clustering" {
 
   interface MapClusteringProps {
     clusteringEnabled?: boolean;
-    spiralEnabled?: boolean;
+    spiderEnabled?: boolean;
+    circleSpiralSwitchover?: number, // # 0 -> always spiral; Infinity -> always circle
     animationEnabled?: boolean;
     preserveClusterPressBehavior?: boolean;
     tracksViewChanges?: boolean;
